@@ -56,7 +56,7 @@ export class Navigation extends React.Component {
 			);
 		}
 		return (
-			<div className="dops-navigation">
+			<div id="jp-navigation" className="dops-navigation">
 				<SectionNav selectedText={ this.props.route.name }>
 					{ navTabs }
 				</SectionNav>

@@ -238,7 +238,7 @@ export const NavigationSettings = createReactClass( {
 		}
 
 		return (
-			<div className="dops-navigation">
+			<div id="jp-navigation" className="dops-navigation">
 				<QuerySitePlugins />
 				<SectionNav selectedText={ this.props.route.name }>
 					{ navItems }
