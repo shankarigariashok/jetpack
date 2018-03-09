@@ -117,7 +117,6 @@ export const NavigationSettings = createReactClass( {
 					{
 						this.hasAnyOfThese( [
 							'masterbar',
-							'markdown',
 							'after-the-deadline',
 							'custom-content-types',
 							'photon',
@@ -152,7 +151,6 @@ export const NavigationSettings = createReactClass( {
 						this.hasAnyOfThese( [
 							'comments',
 							'gravatar-hovercards',
-							'markdown',
 							'subscriptions'
 						] ) && (
 							<NavItem
